@@ -1,0 +1,84 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #191919;
+  color: #eee9e1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+}
+
+main {
+  width: 100%;
+  max-width: 580px;
+}
+
+h1 {
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #eee9e1;
+  margin-bottom: 1.25rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #b94d5a;
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: #eee9e1;
+}
+
+p.lead {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 1.25rem;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+li::before {
+  content: '— ';
+  color: #b94d5a;
+}
+
+a {
+  color: #db737f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: #b94d5a;
+  transition: color 0.15s;
+}
+
+a:hover {
+  color: #eee9e1;
+}
+
+.not-found {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: #b94d5a;
+  margin-bottom: 1.5rem;
+}
